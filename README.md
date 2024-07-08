@@ -8,14 +8,15 @@ The LeetCode Search Engine project aims to create a search engine for LeetCode p
 
 TF-IDF (Term Frequency-Inverse Document Frequency) is an algorithm used in search engines to measure the relevance of a word or phrase to a particular document. It considers two factors: how frequently the word appears in the document (TF) and how important it is compared to other documents (IDF). The algorithm helps determine the significance of a term within a document collection, enabling the search engine to retrieve and rank relevant documents based on their content.
 
+
 ### TF-IDF Formula
-\[ \text{{TF-IDF}}(t, d) = \text{{TF}}(t, d) \times \text{{IDF}}(t) \]
+$\ \text{TF-IDF}(t, d) = \text{TF}(t, d) \times \text{IDF}(t) \$
 
 ### Term Frequency (TF) Formula
-\[ \text{{TF}}(t, d) = \frac{{\text{{Total number of times term }} t \text{{ is present in document }} d}}{{\text{{Total number of tokens in document }} d}} \]
+$\ \text{TF}(t, d) = \frac{\text{Number of times term } t \text{ appears in document } d}{\text{Total number of terms in document } d} \$
 
 ### Inverse Document Frequency (IDF) Formula
-\[ \text{{IDF}}(t) = \log\left(\frac{{\text{{Total Documents}}}}{{\text{{Number of documents term }} t \text{{ is present in}}}}\right) \]
+$\ \text{IDF}(t) = \log \left( \frac{\text{Total number of documents}}{\text{Number of documents containing term } t} \right) \$
 
 
 ### Document Frequency
